@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  li {
+
+    @apply relative py-[45px] before:absolute before:bg-Orange before:bottom-0 before:w-0 before:h-[3px] transition-all hover:before:duration-500 hover:before:ease-in-out hover:before:w-full;
+ 
+}
+
+
+}
+
